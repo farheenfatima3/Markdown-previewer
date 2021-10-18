@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #F3F4F6;
+}
+:root{
+    --prim:#D1D5DB;
+    --second:#6B7280;
+}
+textarea{
+  
+    width:500px;
+    height:250px;
+    margin:auto;
+    background-color: var(--prim);
+
+
+}
+#pre{
+    border:1px solid black;
+    max-width:1000px;
+    margin:auto;
+    background-color: var(--prim);
+    border-radius: 5px;
+}
+#edit{
+    background-color:var(--second);
+    width:500px;
+    margin:auto;
+}
+#prevw{
+    background-color:var(--second)
+}
